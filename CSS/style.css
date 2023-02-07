@@ -195,3 +195,16 @@ header {
     color: white;
     padding: 20px;
 }
+
+/* Footer */
+
+
+footer {
+    padding: 50px 2%;
+    background-color: #0f0f15;
+}
+
+footer p {
+    color: rgb(178, 178, 178);
+    text-align: center;
+}
