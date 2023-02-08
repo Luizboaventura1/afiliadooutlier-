@@ -300,3 +300,9 @@ footer p {
         margin-top: 4%;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .box_single {
+        padding: 35px 20px;
+    }
+}
