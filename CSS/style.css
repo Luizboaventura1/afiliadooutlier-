@@ -266,12 +266,12 @@ footer p {
     background-color: #0f0f15;
     padding: 2%;
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.453);
-    transition: .3s;
+    transition: .3s ease;
     margin: 4%;
 }
 
 .box_single:hover {
-    margin-top: -10px;
+    margin-top: -6px;
 }
 
 .box_single > img {
