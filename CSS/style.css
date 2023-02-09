@@ -315,5 +315,44 @@ footer p {
         padding: 35px 20px;
         margin: 4%;
     }
+
+    
 }
 
+
+@media screen and (max-width: 450px) {
+
+        
+    .box_img {
+        width: 46px;
+        height: 46px;
+        margin-bottom: 5px;
+    }
+
+
+    .box_text > p {
+        color: white;
+        font-size: 17px;
+        line-height: 28px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .box_single {
+        width: 240px;
+        height: auto;
+        border-radius: 10px;
+        background-color: #0f0f15;
+        padding: 10%;
+        box-shadow: 0 0 12px rgba(0, 0, 0, 0.453);
+        transition: .3s ease;
+        margin: 2%;
+    }
+
+    .box_text > p {
+        color: white;
+        font-size: 17px;
+        line-height: 28px;
+        padding: 3% 0;
+    }
+}
