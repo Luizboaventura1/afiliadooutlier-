@@ -133,7 +133,7 @@ header {
     justify-content: left;
     align-items: center;
     animation: bar linear 3s infinite;
-    padding: 2% 0;
+    padding: 4% 0;
 }
 
 .box_conteudo p {
@@ -298,6 +298,11 @@ footer p {
 }
 
 @media screen and (max-width: 768px) {
+
+    .conteudo {
+        padding: 4% 5%; 
+    }
+
     .container_beneficios {
         flex-wrap: wrap;
     }
